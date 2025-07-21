@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#main {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-color: #FF1E00;
+}
+
+#logo {
+  height: 40vw;
+  width: 50vw;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 11;
+   filter: drop-shadow(8px 8px 15px rgba(0, 0, 0, 0.5));
+}
+
+#car {
+  position: absolute;
+  top: 60%;
+  height: 20vh;
+  left: -20%;
+}
+
+#cover {
+  position: absolute;
+  height: 250%;
+  width: 250%;
+  left: -290%;
+  top: -150%;
+  z-index: 9;
+  background-color: #fff;
+  rotate: 45deg;
+}
+
+
+
+
